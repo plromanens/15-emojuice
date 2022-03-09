@@ -1,0 +1,28 @@
+body {
+  margin: auto;
+  margin-top: 8px;
+  max-width: 100%;
+  background-color: #57BB6B;
+}
+
+header {
+  background-image: url(../img/presentation_multifruit.webp);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-header {
+  color: #57BB6B;
+  background-color: #FFFFFFD9;
+  padding: 35px 60px 30px;
+  margin: 30px;
+  
+}
+
+.slogan {
+  line-height: 24px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column-reverse; 
+}
