@@ -60,7 +60,10 @@ h2 {
   font-family: 'Maven Pro', sans-serif;
 }
 
-.product
+.product {
+  color: white;
+  text-align: center;
+}
 
 footer {
   color: #57BB6B;
