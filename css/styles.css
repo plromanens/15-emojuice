@@ -20,13 +20,13 @@ header {
   padding: 35px 50px 10px;
   margin: 30px;
 }
-
+/* à controller avec prof */
 .slogan {
   font-family: 'Quattrocento', serif;
-  line-height: 24px;
+  /* line-height: 24px; */
   font-size: 20px;
-  display: flex;
-  flex-direction: column-reverse; 
+  /* display: flex;
+  flex-direction: column-reverse;  */
 }
 
 .button-container {
@@ -47,11 +47,25 @@ align-items: center;
   text-decoration: none;
 }
 
+.card {
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 100px 67px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 0px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.product
+
 footer {
   color: #57BB6B;
   background-color: white;
   font-family: 'Maven Pro', sans-serif;
-  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -82,5 +96,4 @@ footer {
   display: flex;
   flex-direction: center;
   justify-content: space-between;
-  
 }
