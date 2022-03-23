@@ -75,12 +75,12 @@ footer {
   text-align: center;
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .copyright {
   font-size: 10px;
@@ -89,7 +89,7 @@ footer {
   flex-direction: column-reverse;
 }
 
-.fruits-container img{
+.fruit-img {
   width: 28px;
   margin: 0px;
   padding: 20px;
@@ -98,5 +98,48 @@ footer {
 .fruits-container {
   display: flex;
   flex-direction: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+}
+
+a {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+}
+
+
+.fruits-product {
+  width: 80px;
+}
+
+.juice-card {
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.juice-card-banane {
+  background-color: #FFF8D7;
+}
+
+.juice-card-kiwi {
+  background-color: #C4F2AD;
+}
+
+.juice-card-coffe {
+  background-color: #D3C6B2;
+}
+
+.juice-card-strawberry {
+  background-color: #F7A4B4;
 }
