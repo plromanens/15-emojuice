@@ -37,6 +37,7 @@ align-items: center;
 
 .button {
   font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
   background-color: #57BB6B;
   font-size: 20px;
   color: white;
@@ -57,7 +58,7 @@ span {
   font-weight: bold;
 }
 
-h2 {
+h1 {
   font-size: 26px;
   font-family: 'Maven Pro', sans-serif;
 }
@@ -112,13 +113,15 @@ a {
   color: black;
 }
 
-h3 {
+h2 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
   margin: 0px;
-
 }
 
+h3 {
+  font-size: 18px;
+}
 
 .fruits-product {
   width: 80px;
@@ -177,3 +180,21 @@ h3 {
   align-items: center;
 }
 
+article {
+  color: white;
+  margin: 60px;
+}
+
+.article-product {
+  width: 246px;
+}
+
+.button-light {
+  background-color: white;
+  color: #57BB6B;
+}
+/* rendre les points de la liste tout fin */
+ul {
+  font-weight: 300;
+}
+/* attention dans le footer la banane est tourner vers la droite et dans la card vers la gauche */
