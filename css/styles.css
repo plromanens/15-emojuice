@@ -115,6 +115,8 @@ a {
 h3 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
+  margin: 0px;
+
 }
 
 
@@ -142,4 +144,15 @@ h3 {
 
 .juice-card-strawberry {
   background-color: #F7A4B4;
+}
+
+.juice-slogan {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container-product {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }
