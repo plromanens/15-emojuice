@@ -115,6 +115,7 @@ a {
 
 h2 {
   font-family: 'Sriracha', cursive;
+  color: black;
   font-size: 30px;
   margin: 0px;
 }
@@ -193,8 +194,41 @@ article {
   background-color: white;
   color: #57BB6B;
 }
-/* rendre les points de la liste tout fin */
-ul {
-  font-weight: 300;
+
+.suggest-element {
+  background-color: #C4F2AD;
+  padding: 30px;
+  text-align: center;
 }
-/* attention dans le footer la banane est tourner vers la droite et dans la card vers la gauche */
+
+.juice-card-tiny {
+  border-radius: 20px;
+  /* width: 100px;
+  height: 100px; */
+  padding: 10px;
+  margin: 40px 10px;
+}
+
+.juice-card-tiny a {
+  opacity: 0.5;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 38px;
+  text-decoration: none;
+}
+
+.other-product {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+.product-figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.suggest-element h1 {
+  color: black;
+  margin: 60px 0px 0px;
+  /* padding-top: 50px; */
+}
