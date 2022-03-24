@@ -61,6 +61,7 @@ span {
 h1 {
   font-size: 26px;
   font-family: 'Maven Pro', sans-serif;
+  margin: 60px 0px 0px;
 }
 
 .product {
@@ -197,14 +198,30 @@ article {
 
 .suggest-element {
   background-color: #C4F2AD;
-  padding: 30px;
   text-align: center;
+  padding: 30px;
+}
+
+.other-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.product-figure {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  
+}
+
+.product-figure img {
+  width: 55px;
 }
 
 .juice-card-tiny {
   border-radius: 20px;
-  /* width: 100px;
-  height: 100px; */
   padding: 10px;
   margin: 40px 10px;
 }
@@ -216,19 +233,8 @@ article {
   text-decoration: none;
 }
 
-.other-product {
-  display: flex;
-  /* flex-direction: row; */
-  justify-content: space-between;
+.juice-card-tiny h2 {
+  font-size: 20px;
+  text-align: left;
 }
 
-.product-figure {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-.suggest-element h1 {
-  color: black;
-  margin: 60px 0px 0px;
-  /* padding-top: 50px; */
-}
