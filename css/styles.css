@@ -2,7 +2,7 @@ body {
   margin: auto;
   margin-top: 8px;
   max-width: 380px;
-  background-color: #57BB6B;
+  background-color: #57bb6b;
 }
 
 header {
@@ -15,28 +15,28 @@ header {
 }
 
 .title-container {
-  color: #57BB6B;
-  background-color: #FFFFFFD9;
+  color: #57bb6b;
+  background-color: #ffffffd9;
   padding: 35px 50px 10px;
   margin: 30px;
 }
 
 .slogan {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 20px;
 }
 
 .button-container {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .button {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-weight: 400;
-  background-color: #57BB6B;
+  background-color: #57bb6b;
   font-size: 20px;
   color: white;
   padding: 15px;
@@ -58,7 +58,7 @@ span {
 
 h1 {
   font-size: 26px;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   margin: 60px 0px 0px;
 }
 
@@ -68,9 +68,9 @@ h1 {
 }
 
 footer {
-  color: #57BB6B;
+  color: #57bb6b;
   background-color: white;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -95,18 +95,18 @@ footer {
 }
 
 p {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 16px;
 }
 
 a {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-weight: bold;
   color: black;
 }
 
 h2 {
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   color: black;
   font-size: 30px;
   margin: 0px;
@@ -128,19 +128,19 @@ h3 {
 }
 
 .juice-card-banane {
-  background-color: #FFF8D7;
+  background-color: #fff8d7;
 }
 
 .juice-card-kiwi {
-  background-color: #C4F2AD;
+  background-color: #c4f2ad;
 }
 
 .juice-card-coffe {
-  background-color: #D3C6B2;
+  background-color: #d3c6b2;
 }
 
 .juice-card-strawberry {
-  background-color: #F7A4B4;
+  background-color: #f7a4b4;
 }
 
 .juice-slogan {
@@ -179,11 +179,11 @@ article {
 
 .button-light {
   background-color: white;
-  color: #57BB6B;
+  color: #57bb6b;
 }
 
 .suggest-element {
-  background-color: #C4F2AD;
+  background-color: #c4f2ad;
   text-align: center;
   padding: 30px;
 }
@@ -213,7 +213,7 @@ article {
 
 .juice-card-tiny a {
   opacity: 0.5;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 38px;
   text-decoration: none;
 }
@@ -222,4 +222,3 @@ article {
   font-size: 20px;
   text-align: left;
 }
-
