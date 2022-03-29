@@ -1,4 +1,3 @@
-/* styliser bouton nous contacter */
 body {
   margin: auto;
   margin-top: 8px;
@@ -24,7 +23,6 @@ header {
 
 .slogan {
   font-family: 'Quattrocento', serif;
-  /* line-height: 24px; */
   font-size: 20px;
 }
 
@@ -78,13 +76,6 @@ footer {
   align-items: flex-start;
   text-align: center;
 }
-
-/* .footer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 .copyright {
   font-size: 10px;
@@ -163,17 +154,12 @@ h3 {
   align-items: flex-end;
   justify-content: space-between;
 }
-/* changer de nom de classe pour .icone-kiwi si idée */
+
 .icone-kiwi {
   background-color: white;
   border-radius: 100%;
   width: 100px;
   padding: 30px;
-}
-
-.juice-card-kiwi {
-  background-color: #C4F2AD;
-  padding: 60px 55px;
 }
 
 .juice-card-container-kiwi {
@@ -213,7 +199,6 @@ article {
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  
 }
 
 .product-figure img {
